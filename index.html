@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGL Builds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL Builds.data.br",
-        frameworkUrl: buildUrl + "/WebGL Builds.framework.js.br",
-        codeUrl: buildUrl + "/WebGL Builds.wasm.br",
+        dataUrl: buildUrl + "/WebGL Builds.data.gz",
+        frameworkUrl: buildUrl + "/WebGL Builds.framework.js.gz",
+        codeUrl: buildUrl + "/WebGL Builds.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Lightning",
         productName: "StarLight",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/WebGL Builds.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/WebGL Builds.jpg.gz') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
